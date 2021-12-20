@@ -109,27 +109,3 @@ program grapht
 // 	noisily display `"`0'"'
 		`0'
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
