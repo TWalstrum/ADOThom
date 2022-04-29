@@ -1281,7 +1281,7 @@ fillpattern background  pattern10
 
 textboxstyle              body
 textboxstyle title        heading
-textboxstyle subtitle     subheading
+textboxstyle subtitle     body
 textboxstyle caption      body
 textboxstyle note         small_body
 
