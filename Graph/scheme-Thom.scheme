@@ -718,7 +718,7 @@ margin axis_title        zero
 margin label             zero
 margin key_label         zero
 margin text_option       zero
-margin plotregion        medsmall
+margin plotregion        zero
 margin star              tiny
 margin bargraph          bargraph
 margin boxgraph          bargraph
