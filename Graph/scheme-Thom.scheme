@@ -413,11 +413,11 @@ color sunflowerdb    orange
 color sunflowerdf    black
 
 color p       gs6
-color p1      " 38  68 120"
-color p2      "227   0  34"
-color p3      " 67 104  43"
-color p4      "239 179   0"
-color p5      " 77 196 164"
+color p1      " 55  76 155"
+color p2      "164   0  38"
+color p3      "246 127  76"
+color p4      "253 217 140"
+color p5      "110 166 206"
 color p6      "180 119 212"
 color p7      "147 141 210"
 color p8      "255 102   0"
