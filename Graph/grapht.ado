@@ -4,7 +4,7 @@ program grapht
 		syntax [anything] [if] [in] [, title(string asis) subtitle(string asis) xtitle(string asis) /*
 			*/ ytitle(string asis) *]
 	*Add a comma if there are no options specified.
-		if `"`title'`subtitle'`legend'`xtitle'`ytitle'`options'"' == "" local 0 `0',
+		if `"`title'`subtitle'`xtitle'`ytitle'`options'"' == "" local 0 `0',
 	*Title.
 		*Case 1:  The title has no options.
 		if 		`"`title'"' != "" & strpos(`"`title'"', ",") == 0 {
