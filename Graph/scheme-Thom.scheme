@@ -26,7 +26,7 @@ color pbarlabelfill  black
 color pboxlabelfill  black	
 color plabelfill     black
 
-margin graph             zero
+margin graph             "4 4 0 4"
 margin twoway            "4 4 0 4"
 margin plotregion        "4 4 0 4"
 
