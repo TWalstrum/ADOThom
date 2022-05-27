@@ -1,7 +1,7 @@
 capture program drop grapht
 program grapht
 	*Parse the command.
-		syntax [anything] [if] [in] [, title(string asis) subtitle(string asis) legend(string asis) xtitle(string asis) /*
+		syntax [anything] [if] [in] [, title(string asis) subtitle(string asis) xtitle(string asis) /*
 			*/ ytitle(string asis) *]
 	*Add a comma if there are no options specified.
 		if `"`title'`subtitle'`legend'`xtitle'`ytitle'`options'"' == "" local 0 `0',
@@ -84,19 +84,6 @@ program grapht
 		else if `"`subtitle'"' != "" & strpos(`"`subtitle'"', `"","') != 0 & strpos(`"`subtitle'"', "justification") == 0 /*
 			*/& strpos(`"`subtitle'"', "span") != 0 & strpos(`"`subtitle'"', "bexpand") != 0 {
 			local 0 = subinstr(`"`0'"', `"`subtitle'"', `"`subtitle' justification(left)"', .)
-		}	
-	*Legend.
-		*Case 1:  The legend option isn't specified. Turn it off.
-		if `"`legend'"' == "" {
-			local 0 `0' legend(off)
-		}
-		*Case 2:  The legend is specified but doesn't have a position specified.
-		else if `"`legend'"' != "" & strpos(`"`legend'"', `"ring("') == 0 & strpos(`"`legend'"', `"position("') == 0 {
-			local 0 = subinstr(`"`0'"', `"`legend'"', `"`legend' ring(0) position(11)"', .)
-		}
-		*Case 3:  The legend is specified and has a position specified.
-		else if `"`legend'"' != "" & strpos(`"`legend'"', `"ring("') == 0 & strpos(`"`legend'"', `"position("') != 0 {
-			local 0 = subinstr(`"`0'"', `"`legend'"', `"`legend' ring(0)"', .)
 		}
 	*Axis titles.
 		if `"`xtitle'"' == "" {
