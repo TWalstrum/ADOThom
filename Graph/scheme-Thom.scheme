@@ -27,8 +27,8 @@ color pboxlabelfill  black
 color plabelfill     black
 
 margin graph             zero
-margin twoway            zero
-margin plotregion        "4 4 0 4"
+margin twoway            4 4 0 4
+margin plotregion        zero
 
 horizontal              left
 horizontal heading      left
