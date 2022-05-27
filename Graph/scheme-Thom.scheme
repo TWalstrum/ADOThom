@@ -28,7 +28,7 @@ color plabelfill     black
 
 margin graph             zero
 margin twoway            "4 4 0 4"
-margin plotregion        zero
+margin plotregion        "4 4 0 4"
 
 horizontal              left
 horizontal heading      left
