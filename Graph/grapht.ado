@@ -93,6 +93,6 @@ program grapht
 			local 0 `0' ytitle("")
 		}
 	*Create graph.
-	noisily display `"`0'"'
+//	noisily display `"`0'"'
 		`0'
 end
