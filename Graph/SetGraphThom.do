@@ -12,10 +12,10 @@ set scheme Thom
 graph set window fontface "Roboto"
 
 * Color scheme that matches the p scheme in Thom's graph scheme.
-global Color1 = "62 137 225"
-global Color2 = "142 0 0"
-global Color3 = "131 153 116"
-global Color4 = "238 169 87"
+global Color1 "62 137 225"
+global Color2 "142 0 0"
+global Color3 "131 153 116"
+global Color4 "238 169 87"
 global Color5 "110 166 206"
 global Color6 "180 119 212"
 global Color7 "147 141 210"
