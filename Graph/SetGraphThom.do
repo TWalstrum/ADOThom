@@ -9,7 +9,7 @@ copy "`Path'/scheme-Thom.scheme" "`: sysdir PERSONAL'", replace
 set scheme Thom
 
 * Thom's default font.
-graph set window fontface "Roboto"
+graph set window fontface "Arial"
 
 * Color scheme that matches the p scheme in Thom's graph scheme.
 global Color1 "62 137 225"
