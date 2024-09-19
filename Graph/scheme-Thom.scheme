@@ -6,26 +6,6 @@ graphsize y           4
 gsize legend_row_gap    zero
 gsize legend_key_xsize  8
 
-color background  white
-color heading     black
-
-color histogram      "132 164 217"
-color histback       "132 164 217"
-color histogram_line "132 164 217"
-
-color p1      " 62 137 225"
-color p2      "142   0   0"
-color p3      "131 153 116"
-color p4      "238 169  87"
-color p5      "110 166 206"
-color p6      "180 119 212"
-color p7      "147 141 210"
-color p8      "255 102   0"
-
-color pbarlabelfill  black	
-color pboxlabelfill  black	
-color plabelfill     black
-
 margin graph             zero
 margin twoway            "4 4 4 0"
 
