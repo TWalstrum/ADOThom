@@ -1,42 +1,31 @@
-#include s2color
+#include stcolor
 
-graphsize x           6
-graphsize y           4
+label "Thom"
 
+* Size
+graphsize x           	6
+graphsize y           	4
+
+* Legend
 gsize legend_row_gap    zero
 gsize legend_key_xsize  8
+color legend             none
+color legend_line        none
+yesno legend_force_nodraw    yes
+clockdir legend_position     11
+gridringstyle legend_ring     0
 
-color background  white
-color heading     black
-
-color histogram      "132 164 217"
-color histback       "132 164 217"
-color histogram_line "132 164 217"
-
-color p1      " 62 137 225"
-color p2      "142   0   0"
-color p3      "131 153 116"
-color p4      "238 169  87"
-color p5      "110 166 206"
-color p6      "180 119 212"
-color p7      "147 141 210"
-color p8      "255 102   0"
-
-color pbarlabelfill  black	
-color pboxlabelfill  black	
-color plabelfill     black
-
+* Margins
 margin graph             zero
 margin twoway            "4 4 4 0"
 
+* Textbox style
 horizontal              left
 horizontal heading      left
 horizontal subheading   left
 horizontal body         left
 horizontal small_body   left
 horizontal text_option  left
-
-anglestyle vertical_tick   horizontal
 
 yesno grid_draw_min          yes
 yesno grid_draw_max          yes
@@ -45,12 +34,5 @@ yesno title_span             yes
 yesno subtitle_span          yes
 yesno caption_span           yes
 yesno note_span              yes
-
-color legend             none
-color legend_line        none
-yesno legend_force_nodraw    yes
-clockdir legend_position     11
-gridringstyle legend_ring     0
-legendstyle                  column
 
 textboxstyle subtitle     body
