@@ -8,7 +8,7 @@ program grapht
 	*Title.
 		*Case 1:  The title has no options.
 		if 		`"`title'"' != "" & strpos(`"`title'"', ",") == 0 {
-			local 0 = subinstr(`"`0'"', `"`title'"', `"`title', span bexpand justification(left)"', .)
+			local 0 = subinstr(`"`0'"', `"title(`title')"', `"title(`title', span bexpand justification(left))"', .)
 		}
 		*Case 2:  The title has options, but they aren't related to the default options.
 		else if `"`title'"' != "" & strpos(`"`title'"', ",") != 0 & strpos(`"`title'"', "justification") == 0 /*
